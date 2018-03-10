@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TODO - Elm</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            background: #eae9e9;
+            overflow: hidden;
+        }
+
+        .todo-container {
+          width: 450px;
+          height: 400px;
+          margin: auto;
+          overflow: hidden;
+        }
+
+        .todo-container input {
+          width: 418px;
+          outline: none;
+          box-shadow: none;
+          border: none;
+          font-size: 16px;
+          padding: 16px;
+        }
+
+        .todo-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            overflow-y: auto;
+            height: 400px;
+        }
+
+        .todo-container ul li{
+            padding: 16px;
+            font-size: 16px;
+            color: #020202;
+        }
+
+        .todo-container ul li:nth-child(even){
+            background: #a5a5a5;
+        }
+
+        .todo-container ul li:nth-child(odd){
+            background: #eadbdb;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="mainContainer"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
